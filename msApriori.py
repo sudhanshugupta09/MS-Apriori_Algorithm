@@ -55,7 +55,6 @@ for l in L:
 		F[1].append(l)
 		# print(F)
 
-## 
 # Step 4 to 19
 tailcount = {}
 k = 2
@@ -105,10 +104,8 @@ for val in F:
 			final_dict[s] = final_support_count[s]
 		Final_f.append(final_dict)
 
-# print(len(Final_f))
-
 output = ""
-f_out = open("result2-2.txt", "w")
+f_out = open("result_files/result2-2.txt", "w")
 
 if len(Final_f) is 0:
 	output += "Frequent " + "1" + "-itemsets \n\n"
