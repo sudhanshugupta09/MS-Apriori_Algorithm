@@ -17,7 +17,7 @@ Is MS Apriori better? Yes! It accounts for the "rare item support." Apriori only
 **Sample Parameter File**
 
 *MIS values for all items*
-MIS(10) = 0.43 <br>
+MIS(10) = 0.43
 MIS(20) = 0.30
 MIS(30) = 0.30
 MIS(40) = 0.40
